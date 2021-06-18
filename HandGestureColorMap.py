@@ -12,6 +12,8 @@ while True:
   img = detector.findHands(img)
   lmList = detector.findPosition(img,draw = False)
 
+  #test readme
+
   if(len(lmList)!=0):
     fingers = []
     for id in range(0,5):
